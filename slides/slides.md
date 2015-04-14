@@ -1,6 +1,6 @@
-﻿- title : F# Streams
-- description : The F# Streams Library
-- author : Gian Ntzik - Nick Palladinos
+﻿- title : MBrace
+- description : MBrace: harnessing the cloud with F#
+- author : Nick Palladinos
 - theme : night
 - transition : default
 
@@ -62,13 +62,18 @@ https://github.com/nessos
 
 ***
 
+
+###
+
+![MBrace_Stack](images/MBraceStack.png)
+
+***
+
 #### MBrace 
 
 http://www.m-brace.net
 
 ***
-
-
 
 #### This presentation
 
