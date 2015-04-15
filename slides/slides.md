@@ -50,7 +50,7 @@ https://github.com/nessos
 ***
 
 
-#### F#'s  most successful export product
+#### F#'s most significant intellectual export
 
 ### async { ... }
 
@@ -62,6 +62,21 @@ https://github.com/nessos
 
 ***
 
+### Agenda
+
+* async => cloud 
+* Cloud.Parallel & CloudFiles
+* CloudFlow (batch)
+* CloudFlow/CloudChannels (streaming)
+* cloud gotchas
+
+***
+
+###
+
+![Linus](images/linus.png)
+
+***
 
 ###
 
@@ -69,17 +84,19 @@ https://github.com/nessos
 
 ***
 
+###
+
+![Gibson](images/Gibson.png)
+
+***
+
+
 #### MBrace 
 
 http://www.m-brace.net
 
 ***
 
-#### This presentation
-
-https://github.com/palladin/fsharp-exchange
-
-***
 
 ### Thank you!
 
