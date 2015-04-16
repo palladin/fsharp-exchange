@@ -33,7 +33,9 @@ module ConnectionStrings =
     let createStorageConnectionString(storageName, storageAccessKey) = sprintf "DefaultEndpointsProtocol=https;AccountName=%s;AccountKey=%s" storageName storageAccessKey
     let createServiceBusConnectionString(serviceBusName, serviceBusKey) = sprintf "Endpoint=sb://%s.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=%s" serviceBusName serviceBusKey
 
-    let config =
+    let config = 
         { Configuration.Default with
-            StorageConnectionString = myStorageConnectionString
-            ServiceBusConnectionString = myServiceBusConnectionString }
+            StorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=mbracedatasets;AccountKey=zVgpnYq2QmyRhKgFXetbqeBjJnQ61pAWBlij7wMp0m6znAxVzlvSFPwYGs/OY2fKjn069EECt03Ft5FO4gddeQ==" //selectEnv "azurestorageconn"
+            ServiceBusConnectionString = "Endpoint=sb://mbrace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=AAzfzrei88gtJ4rJerNQxJtSk7jvXVOVgqy3c96TOKE=" } //selectEnv "azureservicebusconn" }
+
+

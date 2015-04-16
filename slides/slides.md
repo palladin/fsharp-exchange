@@ -66,8 +66,7 @@ https://github.com/nessos
 
 * async => cloud 
 * Cloud.Parallel & CloudFiles
-* CloudFlow (batch)
-* CloudFlow/CloudChannels (streaming)
+* CloudFlow
 * cloud gotchas
 
 ***
