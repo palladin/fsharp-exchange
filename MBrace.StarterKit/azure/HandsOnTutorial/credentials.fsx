@@ -35,7 +35,7 @@ module ConnectionStrings =
 
     let config = 
         { Configuration.Default with
-            StorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=mbracedatasets;AccountKey=zVgpnYq2QmyRhKgFXetbqeBjJnQ61pAWBlij7wMp0m6znAxVzlvSFPwYGs/OY2fKjn069EECt03Ft5FO4gddeQ==" //selectEnv "azurestorageconn"
-            ServiceBusConnectionString = "Endpoint=sb://mbrace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=AAzfzrei88gtJ4rJerNQxJtSk7jvXVOVgqy3c96TOKE=" } //selectEnv "azureservicebusconn" }
+            StorageConnectionString = "" //selectEnv "azurestorageconn"
+            ServiceBusConnectionString = "" } //selectEnv "azureservicebusconn" }
 
 
